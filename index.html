@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="/src/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crossword for pros</title>
+</head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <h1>Crossword Pro</h1>
+        <div class="page-navigation">
+          <a href="#word-list">Word list</a>
+          <a href="#grid">Grid</a>
+        </div>
+        <div class="word-list-page">
+          <div id="word-list">
+            <table>
+              <thead>
+                <tr>
+                  <th>Word</th>
+                  <th>Description</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="word-row">
+                  <td>Класс</td>
+                  <td>описание того, как должен работать объект</td>
+                  <td class="remove-button">×</td>
+                </tr>
+                <tr class="word-row">
+                  <td>Объект</td>
+                  <td>часть программы, которая, в теории, должна уметь работать самостоятельно</td>
+                  <td class="remove-button">×</td>
+                </tr>
+                <tr class="word-row">
+                  <td>Функция</td>
+                  <td>блок кода, выполняющий определенную задачу</td>
+                  <td class="remove-button">×</td>
+                </tr>
+                <tr class="word-row">
+                  <td>Алгоритм</td>
+                  <td>последовательность шагов для решения задачи</td>
+                  <td class="remove-button">×</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="word-form">
+            <input name="word" type="text" placeholder="Word">
+            <input name="description" type="text" placeholder="Description">
+            <button class="save-button"></button>
+          </div>
+        </div>  
+      </div>
+    </div>
+    <script src="/src/main.js"></script>
+  </body>
+</html>
